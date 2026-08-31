@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: 'Download', href: 'https://themewagon.com/themes/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
@@ -177,6 +177,7 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted font-semibold" target="_blank" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved &bull;
+    Distributed by <a class="text-blue-600 underline dark:text-muted font-semibold" target="_blank" href="https://themewagon.com">ThemeWagon</a>.
   `,
 };
