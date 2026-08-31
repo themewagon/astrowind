@@ -5,6 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import { getHomePermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'About us',
@@ -155,7 +156,7 @@ const metadata = {
     isReversed={true}
     callToAction={{
       text: 'See more',
-      href: '/',
+      href: getHomePermalink(),
     }}
     items={[
       {
